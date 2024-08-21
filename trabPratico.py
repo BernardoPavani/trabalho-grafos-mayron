@@ -1,3 +1,7 @@
+# Trabalho de Grafos - Professor Mayron Moreira
+# Alunos: Bernardo Coelho Pavani Marinho (202310874) & Anwar Martins Hermuche (202220165)
+# Turma dos dois alunos: 10A
+
 from collections import defaultdict, deque
 import heapq
 
