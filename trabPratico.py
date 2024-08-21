@@ -578,13 +578,13 @@ class Graph:
                 self._dfs_transitive_closure(i, visited, reachable)
 
     # executa os métodos das funções
-    def executaMetodos(self, functions_to_use):
-        mapeamento = {0: self.is_connected, 1: self.is_bipartite, 2: self.is_eulerian, 3: self.has_cycle, 4: self.number_of_connected_components,
+    def execute_methods(self, functions_to_use):
+        mapping = {0: self.is_connected, 1: self.is_bipartite, 2: self.is_eulerian, 3: self.has_cycle, 4: self.number_of_connected_components,
                       5: self.number_of_strongly_connected_components, 6: self.find_articulation_points, 7: self.number_of_bridges, 8: self.dfs_tree,
                       9: self.bfs_tree, 10: self.mst_final_value, 11: self.topological_sort, 12: self.path_value, 13: self.maximum_flow,
                       14: self.transitive_closure}
-        for indice in functions_to_use:
-            print(mapeamento[indice]())
+        for index in functions_to_use:
+            print(mapping[index]())
 
 def read_graph_input():
     # input
@@ -603,4 +603,4 @@ def read_graph_input():
     return functions_to_use, graph
 
 functions_to_use, graph = read_graph_input()
-graph.executaMetodos(functions_to_use)
+graph.execute_methods(functions_to_use)
