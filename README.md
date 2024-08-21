@@ -13,11 +13,12 @@ Graph(num_vertices, is_directed)
 - *is_directed*: Booleano indicando se o grafo é dirigido (True) ou não (False).
 
 ## Métodos Principais
+
 ### Adicionar Aresta: add_edge(edge_id, u, v, weight)
 Adiciona uma aresta entre os vértices u e v com peso weight.
 
 ### Verificar Conectividade: is_connected()
-Retorna "1" se o grafo é conectado, caso contrário "0".
+Retorna "1" se o grafo é conexo, caso contrário "0".
 
 ### Verificar Bipartição: is_bipartite()
 Retorna "1" se o grafo é bipartido, caso contrário "0".
@@ -32,13 +33,15 @@ Retorna os IDs das arestas na árvore DFS a partir do vértice 0.
 Retorna os IDs das arestas na árvore BFS a partir do vértice 0.
 
 ### Ordenação Topológica: topological_sort()
-Retorna a ordenação topológica dos vértices (para grafos dirigidos).
+Retorna a ordenação topológica dos vértices (para grafos direcionados).
 
 ### Valor do Caminho Mínimo: path_value()
 Retorna o valor do caminho mais curto do vértice 0 ao vértice n-1.
 
 ### Fluxo Máximo: maximum_flow()
-Retorna o valor do fluxo máximo do vértice 0 ao vértice n-1 (para grafos dirigidos).
+Retorna o valor do fluxo máximo do vértice 0 ao vértice n-1 (para grafos direcionados).
+
+Entre outros...
 
 ## Exemplo de uso
 ```python
