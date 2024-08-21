@@ -1,5 +1,5 @@
 # Implementação de Algoritmos de Grafos
-## Bernardo Pavani & Anwar Hermuche
+## Alunos Bernardo Pavani & Anwar Hermuche
 
 Este projeto contém a implementação de diversos algoritmos de grafos utilizando a classe `Graph` em Python para o trabalho prático da Universidade Federal de Lavras, da disciplina de Algoritmos em Grafos. A classe suporta grafos direcionados e não-direcionados, permitindo realizar operações comuns, como verificar conectividade, bipartição, existência de ciclos, e mais.
 
